@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.elkouhen</groupId>
+	<groupId>com.mycompany.elkouhen</groupId>
 	<artifactId>poc-camel1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
@@ -40,7 +40,7 @@
 				<artifactId>camel-maven-plugin</artifactId>
 				<!-- optional, default value: org.apache.camel.spring.Main -->
 				<configuration>
-					<mainClass>com.github.elkouhen.app.App</mainClass>
+					<mainClass>com.mycompany.elkouhen.app.App</mainClass>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -49,8 +49,8 @@
 				<version>3.1</version>
 				<configuration>
 					<!-- http://maven.apache.org/plugins/maven-compiler-plugin/ -->
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
